@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body bgcolor="pink">
+    <h1 align="center">APPLICATION FORM</h1>
+    <form action="submit-url">
+
+        <label for="name">FIRST NAME:</label>
+        <input type="text" id="name" name="name" placeholder="enter first name" required><br>
+        <label for="name">LAST NAME:</label>
+        <input type="text" id="name" name="name" placeholder="enter last name" required><br>
+
+        <label for="DOB">DATE OF BIRTH:</label>
+        <input type="date" id="DOB" name="date of birth" placeholder="enter date of birth" required><br>
+
+        <label for="age">AGE:</label>
+        <input type="number" id="age" name="person's age" placeholder="enter age" required><br>
+
+        <label for="gender">GENDER:</label>
+        <select id="gender" name="person's gender">
+            <option value="" disabled selected>select gender</option>
+            <option value="male">male</option>
+            <option value="female">female</option>
+            <option value="transgender">transgender</option>
+        </select><br>
+
+        <label for="email">EMAIL ADDRESS:</label>
+        <input type="email" id="email" name="person's email" placeholder="enter email address" required><br>
+
+        <label for="phone">PHONE NUMBER:</label>
+        <input type="tel" id="phone" name="telephone" placeholder="enter phone number" required>
+
+        <p>POSITION'S AVAILABLE</p>
+        <label for="junior">junior developer</label>
+        <input type="radio" id="junior" value="junior developer" name="pos">
+        <label for="mid-level">mid-level developer</label>
+        <input type="radio" id="mid-level" value="mid-level developer" name="pos">
+        <label for="senior">senior developer</label>
+        <input type="radio" id="senior" value="senior developer" name="pos">
+
+        <p>PROGRAMMING LANGUAGES</p>
+        <label for="java">java</label>
+        <input type="checkbox" id="java" name="java">
+        <label for="javascript">javascript</label>
+        <input type="checkbox" id="javascript" name="javascript">
+        <label for="python">java</label>
+        <input type="checkbox" id="python" name="python"><br><br>
+
+        <label for="pswd">PASSWORD:</label>
+        <input type="password" id="pswd" name="password" placeholder="enter password" required><br>
+
+        <input type="checkbox" id="terms" required>
+        <label for="terms">i agree to the terms and conditions</label><br>
+
+        <label for="comments"></label>
+        <textarea id="comments" placeholder="enter your comments" rows="5" required></textarea><br><br>
+
+        <button type="submit">submit</button>
+    </form>
+</body>
+
+</html>
